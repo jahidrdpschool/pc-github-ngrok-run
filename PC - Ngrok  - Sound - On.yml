@@ -1,4 +1,4 @@
-name: PC - Ngrok 01
+name: PC - Ngrok - Sound - On
 
 on:
   workflow_dispatch:
