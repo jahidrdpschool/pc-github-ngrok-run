@@ -1,4 +1,4 @@
-name: PC - Ngrok 06
+name: PC - Ngrok 01
 
 on:
   workflow_dispatch:
@@ -17,7 +17,7 @@ jobs:
       - name: Connect Ngrok Account
         run: ngrok config add-authtoken $Env:NGROK_AUTH_TOKEN
         env:
-          NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN_06 }}
+          NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
           
       - name: Enable Access
         run: cmd /c AC.bat
